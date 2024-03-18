@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9131915749588746663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9131915749588746661}
+  - component: {fileID: 9131915749588746660}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9131915749588746661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9131915749588746663}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9131915749588746660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9131915749588746663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1afc7adbec80640af755bf10448158, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holep: 1
+  w: 10
+  h: 10
+  x: 0
+  y: 0
+  Level: {fileID: 0}
+  Player: {fileID: 0}
+  Goal: {fileID: 0}
+  Enemies: {fileID: 0}
+  Floor: {fileID: 367382853139450526, guid: 28db0bf11cf71c840b9b8e9c703255be, type: 3}
+  Wall: {fileID: 8299420864521941160, guid: 1a73bff554fd56e4bb581a3546f99fc1, type: 3}
+  Enemy: {fileID: 4059696201217515746, guid: a066ae4591666734fbbb26539c1e409a, type: 3}
+  floatingBombTime: {fileID: 2498046572983968091, guid: 31cfc91ece4ef2e42822065e50568f50,
+    type: 3}
+  floatingtextParent: {fileID: 0}
+  floatingLevel: {fileID: 8018047419522590310, guid: 1b22d380edc005b4db12833767fc6787,
+    type: 3}
+  levelParentfloating: {fileID: 0}
+  cam: {fileID: 0}
+  remainingTime: 40
+  bombMalus: 2
+  levelTime: 40
+  timerIsRunning: 0
+  goalSet: 0
+  gameOver: 0
+  levelCount: 1
+  bombCount: 5
+  globalLight: {fileID: 0}
+  pointLight: {fileID: 0}
+  timeText: {fileID: 0}
+  levelText: {fileID: 0}
+  slider: {fileID: 0}
